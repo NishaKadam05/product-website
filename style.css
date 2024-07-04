@@ -1,0 +1,166 @@
+.nav{
+    background-color: rgb(128, 24, 114);
+    padding: 1px;
+}
+.nav ul{
+    list-style-type: none;
+}
+
+.nav li{
+    display: inline;
+    
+}
+
+.nav li img{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.nav1{
+    margin-left: 800px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+.nav a:hover{
+     color: red;
+}
+h1{
+    text-align: center;
+}
+.about-us{
+background-color: rgb(227, 98, 250);
+padding: 50px;
+}
+.about-section {
+    display: flex;
+    gap: 20px;
+    
+}
+.about-section img{
+    width: 1000px;
+    height: 300px;
+}
+.services{
+    background-color: rgb(161, 126, 241);
+    padding: 40px;
+}
+.service-img{
+    display: flex;
+    gap: 30px;
+}
+.service1{
+    width: 450px;
+    height: 500px;
+}
+.service2{
+    width: 450px;
+    height: 500px;
+}
+.service3{
+    width: 450px;
+    height: 500px;
+}
+.services a{
+    float: right;
+    color: white;
+    font-size: 20px;
+}
+.services a:hover{
+    color: black;
+}
+.products{
+    background-color: rgb(116, 91, 239);
+    padding: 40px;
+}
+.product-img{
+    display: flex;
+    gap: 40px;
+}
+.pdt1-img{
+    width: 450px;
+    height:500px;
+}
+.pdt2-img{
+    width: 450px;
+    height:500px; 
+}
+.pdt3-img{
+    width: 450px;
+    height:500px;
+}
+.pdt4-img{
+    margin-left: 400px;
+    width: 600px;
+    height:500px;
+}
+.products a{
+    margin-bottom: 10px;
+    float: right;
+    color: white;
+    font-size: 20px;
+}
+.products a:hover{
+    color: black;
+}
+.contact{
+    background-color: rgb(151, 201, 241);
+    padding: 10px;
+}
+.contact .form{
+    display: table;
+    margin: 50px 0px 0px 450px;
+}
+.contact p{
+    display: table-row;
+}
+.contact label{
+    display: table-cell;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact input{
+   display: table-cell;
+   width: 350px;
+   height: 30px;
+}
+.contact textarea{
+    width: 350px;
+    height: 50px;
+}
+.btn{
+    margin-left: 600px;
+    padding-top: 20px;
+}
+.btn button{
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: 2px solid rgb(19, 109, 150) ;
+    border-radius: 20px;
+}
+.btn1{
+    background-color: rgb(21, 125, 173);
+}
+.btn1:hover{
+    background-color: rgb(30, 10, 118);
+}
+.btn2{
+    background-color: red;
+}
+.btn2:hover{
+    background-color: rgb(113, 9, 9);
+}
+.footer{
+    background-color: rgb(9, 115, 147);
+    padding:100px
+}
+.footer h2{
+    text-align: center;
+    color: white;
+}
